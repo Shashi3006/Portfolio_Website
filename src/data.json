@@ -1,0 +1,91 @@
+[{
+    "id":1,
+  "Name":"John Andersor",
+  "Position": "Software Engineer",
+  "Location": "OR, Toronto, Canada",
+  "Experience": "5 years",
+  "Skills": "Java, Python, JavaScript",
+  "Education": "Bachelor's degree in Computer Science",
+  "EligibilityRank": 1
+},
+{
+    "id":2,
+    "Name":"Emily Roberts",
+    "Position": "UI/UX Designer",
+    "Location": "OR, Toronto, Canada",
+    "Experience": "3 years",
+    "Skills": "Adobe XD, Sketch, Wireframing, Prototyping",
+    "Education": "Master's degree in Interaction Design",
+    "EligibilityRank": 2
+  },
+  {
+    "id":3,
+    "Name":"Laalamani Murthy",
+    "Position": "Data Analyst",
+    "Location": "Chennai, Tamil Nadu, India",
+    "Experience": "2 years",
+    "Skills": "SQL, Python, Data Visualization",
+    "Education": "Bachelor's degree in Statistics",
+    "EligibilityRank": 3
+  },
+  {
+    "id":4,
+    "Name":"Madhu T",
+    "Position": "Marketing Specialist",
+    "Location": "Chennai, Tamila Nadu, India",
+    "Experience": "3 years",
+    "Skills": "Digital Marketing, Social Media Management, SEO",
+    "Education": "Bachelor's degree in Marketing",
+    "EligibilityRank": 4
+  },
+  {
+    "id":5,
+    "Name":"Darpan Mishra",
+    "Position": "Software Engineer",
+    "Location": "Chennai, Tamila Nadu, India",
+    "Experience": "3 years",
+    "Skills": "Java, Python, JavaScript",
+    "Education": "Bachelor's degree in Computer Science",
+    "EligibilityRank": 2
+  },
+  {
+    "id":6,
+    "Name":"Sanjay Raut",
+    "Position": "UI/UX Designer",
+    "Location": "OR, Toronto, Canada",
+    "Experience": "2 years",
+    "Skills": "Adobe XD, Sketch, Wireframing, Prototyping, Adobe Illustrator",
+    "Education": "Master's degree in Interaction Design",
+    "EligibilityRank": 2
+  },
+  {
+    "id":7,
+    "Name":"Rishabh Malik",
+    "Position": "Graphic Designer",
+    "Location": "Hyderabad, Telangana, India",
+    "Experience": "2 years",
+    "Skills": "AdobeInDesign, Adobe Photoshop",
+    "Education": "Bachelor's degree in Graphic Design",
+    "EligibilityRank": 3
+  },
+  {
+    "id":8,
+    "Name":"Armaan Joshi",
+    "Position": "UI/UX Designer",
+    "Location": "Pune, Maharashtra, India",
+    "Experience": "4 years",
+    "Skills": "Adobe XD, Sketch, Prototyping, Adobe Illustrator",
+    "Education": "Master's degree in Interaction Design",
+    "EligibilityRank": 2
+  },
+  {
+    "id":9,
+    "Name":"Meghana T",
+    "Position": "Graphic Designer",
+    "Location": "Chennai, Tamila Nadu, India",
+    "Experience": "3 years",
+    "Skills": "After  Effects, Sketch, Adobe Illustrator",
+    "Education": "Bachelor's degree in Computer Science",
+    "EligibilityRank": 1
+  }
+]
