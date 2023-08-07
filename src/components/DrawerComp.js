@@ -1,4 +1,4 @@
-import { Drawer, IconButton, List, Box, ListItemText, Button, Backdrop } from '@mui/material';
+import { Drawer, IconButton, List, ListItem, ListItemButton, Box, ListItemText, Button, Backdrop } from '@mui/material';
 import React, { useState } from 'react';
 import MenuIcon from '@mui/icons-material/Menu';
 import Login from './Login';
@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 function DrawerComp() {
     const [openDrawer, setopenDrawer] = useState(false);
-    const pages = [ "home", "about us"];
+    // const pages = [ "home", "about us"];
     const [open, setOpen] = useState(false);
 
     const handleloginClick = (e) => {
@@ -27,16 +27,18 @@ function DrawerComp() {
               marginLeft: 'auto',
               "& :hover":{borderBottom: "1px solid #7c43fa"},
             }}>
-               {
-                pages.map((page, index)=>(
-                    // <ListItemButton key={index}>
-                    // <ListItemIcon>
-                    <ListItemText key={index} sx={{ color: '#d35cff', fontSize: '22px', marginBottom:"25px" }}> { page } </ListItemText>
-                    // </ListItemIcon>
-                    // </ListItemButton>
-                 ))
-               }
-               </List>
+              <ListItem sx={{ color: '#d35cff', fontSize: '22px' }}>
+               <ListItemButton>
+                <ListItemText primary="home" />
+               </ListItemButton>
+              </ListItem>
+              <ListItem sx={{ color: '#d35cff', fontSize: '22px' }}>
+               <ListItemButton href="about">
+                <ListItemText primary="about us" />
+               </ListItemButton>
+              </ListItem>
+            </List>
+               
                
             <Button variant='outlined'
              sx={{ 
@@ -62,7 +64,7 @@ function DrawerComp() {
                <Link to= "/register"><Button variant='contained'
             onClick= {()=> setopenDrawer(false)} 
            sx={{
-              margin:"20px", 
+              margin:"20px 40px", 
               width:'130px', 
               fontSize: "17.57px", 
               color: "#fff", 

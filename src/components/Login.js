@@ -108,7 +108,7 @@ function Login({setOpen, setopenDrawer}) {
               fullWidth
               required />
 
-           <Stack direction="row" spacing={4} p={3}>
+           <Stack direction="row" spacing={4} p={0.9}>
             <Link to= "/register">
               <Button
              variant='outlined'
